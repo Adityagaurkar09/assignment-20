@@ -6,7 +6,7 @@ body{
     display: flex;
    }
    .side-bar{
-    background-color: rgb(61, 61, 59);
+    background-color: rgb(26, 8, 61);
      width: 15%;
      height: 100vh;
      padding: 20px;
@@ -21,7 +21,7 @@ body{
        color: black;
    }
    .side:hover{
-       background-color: aqua;
+       background-color: rgb(178, 223, 212);
    }
    .content{
        width: 75%;
@@ -34,6 +34,9 @@ body{
    }
    span{
        margin-left: 10px;
-       margin-top: 20px;
-       
+       margin-top: 20px;    
+   }
+   .content{
+    background-color: rgb(225, 167, 231);
+
    }
