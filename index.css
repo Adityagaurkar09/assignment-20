@@ -40,3 +40,26 @@ body{
     background-color: rgb(225, 167, 231);
 
    }
+   @media screen and (min-width: 600px) and (max-width: 768px) {
+    .side-bar  {
+        width: 12%;
+  }
+  span{
+    display: none;
+  }
+   }
+
+  @media screen and (min-width: 769px) and (max-width: 992px) {
+    .side-bar {
+        width: 15%;
+        }
+     
+        .img-side-bar {
+            width: 30px;
+            height: 30px;
+          }
+          .side{
+            font-size: 15px;
+          }
+        }
+    
